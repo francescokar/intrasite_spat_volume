@@ -1,6 +1,6 @@
 ## Import dataset
 
-# setwd("D:/R-Code_Projects/SpatAn_US-Vol")
+unzip(FB018B_Surface.zip,exdir=getwd())
 library(rgdal) 
 FB018A<-readOGR("FB018A_Surface.shp")
 FB018B<-readOGR("FB018B_Surface.shp")
